@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+#exportPattern("^[[:alpha:]]+")
+useDynLib(geohash)
+export(geohash_verify, 
+       geohash_encode)
