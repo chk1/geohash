@@ -1,9 +1,9 @@
 Package: geohash
 Type: Package
-Title: Convert coordinates between latitude/longitudes format and geohash
+Title: Convert coordinates to and from Geohash
 Version: 0.1
-Date: 2015-08-02
+Date: 2015-08-12
 Author: Christoph Kisfeld
 Maintainer: Christoph Kisfeld <christoph.kisfeld@gmail.com>
-Description: Convert coordinates between latitude/longitudes format and geohash
-License: BSD 2-clause, see LICENSE file
+Description: Convert coordinates between latitude/longitudes format and Geohash.
+License: GNU Affero General Public License, see LICENSE file

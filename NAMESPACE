@@ -1,1 +1,7 @@
-exportPattern("^[[:alpha:]]+")
+export(geohash_decode, geohash_encode)
+
+S3method(geohash_encode, default)
+S3method(geohash_encode, data.frame)
+
+S3method(geohash_decode, default)
+S3method(geohash_decode, list)

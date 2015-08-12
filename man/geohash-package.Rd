@@ -3,21 +3,20 @@
 \alias{geohash}
 \docType{package}
 \title{
-Convert coordinates between latitude/longitudes format and geohash
+Convert coordinates to and from Geohash
 }
 \description{
-Convert coordinates between latitude/longitudes format and geohash
+Convert coordinates between latitude/longitudes format and Geohash. The encoding and decoding functions are derived from Leonard Norrgard's Geohash Python library.
 }
 \details{
 \tabular{ll}{
 Package: \tab geohash\cr
 Type: \tab Package\cr
 Version: \tab 0.1\cr
-Date: \tab 2015-08-02\cr
-License: \tab BSD 2-clause\cr
+Date: \tab 2015-08-12\cr
+License: \tab GNU Affero General Public License\cr
 }
-~~ An overview of how to use the package, including the most important ~~
-~~ functions ~~
+
 }
 \author{
 Christoph Kisfeld
@@ -27,14 +26,13 @@ Maintainer: Christoph Kisfeld <christoph.kisfeld@gmail.com>
 \references{
 https://en.wikipedia.org/wiki/Geohash
 http://geohash.org/
+https://github.com/vinsci/geohash/
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
-~~ the R documentation directory ~~
-\keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+
+\keyword{ package, geohash }
 \examples{
-~~ simple examples of the most important functions ~~
+# Decode a Geohash
+geohash_decode("u1m2fw")
+# Encode coordinates to Geohash
+geohash_encode(52.2, 7.5, precision=6)
 }
